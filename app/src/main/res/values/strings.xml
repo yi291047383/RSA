@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RSA</string>
+    <string name="hint_tip">请输入想要加密的字符</string>
+    <string name="button_name_1">加密</string>
+    <string name="button_name_2">解密</string>
+
+    <string name="hint_tip_encrypt">加密后的内容</string>
+    <string name="hint_tip_decrypt">解密后的内容</string>
+
+    <string name="encrypt_fail">加密失败</string>
+    <string name="decrypt_fail">解密失败</string>
+
+    <string name="empty_text">请先输入待加密内容！</string>
+    <string name="empty_encrypt_content">没有待解密的内容！</string>
+
+</resources>

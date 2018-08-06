@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--高度-->
+    <dimen name="height_50dp">50dp</dimen>
+    <dimen name="height_60dp">60dp</dimen>
+
+    <!--宽度-->
+    <dimen name="width_120dp">120dp</dimen>
+
+    <!--间隔值-->
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+
+</resources>

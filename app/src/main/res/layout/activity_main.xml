@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15dp"
+            android:hint="@string/hint_tip"/>
+
+        <LinearLayout
+            android:id="@+id/ll_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_input"
+            android:layout_marginLeft="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_encrypt"
+                android:layout_width="@dimen/width_120dp"
+                android:layout_height="@dimen/height_60dp"
+                android:text="@string/button_name_1"/>
+
+            <Button
+                android:id="@+id/btn_decrypt"
+                android:layout_width="@dimen/width_120dp"
+                android:layout_height="@dimen/height_60dp"
+                android:layout_marginLeft="@dimen/dimen_20dp"
+                android:text="@string/button_name_2"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_encrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:hint="@string/hint_tip_encrypt"
+            android:layout_below="@id/ll_button"/>
+
+        <TextView
+            android:id="@+id/tv_decrypt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_encrypt"
+            android:hint="@string/hint_tip_decrypt"
+            android:padding="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_15dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
